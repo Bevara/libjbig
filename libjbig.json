@@ -1,5 +1,6 @@
 {
     "name": "libjbig",
+    "version": "1.0.1",
     "description": "JBIG image decoder",
     "filters":["jbigdec"],
     "help": "This filter decodes JBIG (ITU-T T.82) bi-level images using JBIG-KIT.",
