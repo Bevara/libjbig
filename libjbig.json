@@ -2,20 +2,29 @@
     "name": "libjbig",
     "version": "1.0.2",
     "description": "JBIG image decoder",
-    "filters":["jbigdec"],
+    "filters": [
+        "jbigdec"
+    ],
     "help": "This filter decodes JBIG (ITU-T T.82) bi-level images using JBIG-KIT.",
     "support": [
         "image"
     ],
-    "sources":"https://bevara.ddns.net/sources/libjbig.accessor",
-    "filter_source":{
-        "jbigdec" : "dec_jbig.c"
+    "sources": "https://bevara.ddns.net/sources/libjbig.accessor",
+    "filter_source": {
+        "jbigdec": "dec_jbig.c"
     },
-    "extension":{
-      "jbg" : "img",
-      "jbig" : "img"
+    "extension": {
+        "jbg": "img",
+        "jbig": "img"
     },
-    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "using": [
+        "mm_solver_minimal_1.0.1",
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "patents": {
         "status": "expired",
         "note": "JBIG (ITU-T T.82)",
